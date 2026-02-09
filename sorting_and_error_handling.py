@@ -43,7 +43,7 @@ def average_class_score(students_list, scores):
 average_score = average_class_score(students_list, scores) 
 print(f"Average Score: {average_score}") #checking the avg. score
 
-#checking the case of an empty class
+#checking the case of an empty class with the same function and different lists
 empty_class = []
 empty_scores = []
 error_average = average_class_score(empty_class, empty_scores)
