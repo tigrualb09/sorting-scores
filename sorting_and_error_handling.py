@@ -33,7 +33,7 @@ lowest_score = sorted_scores[0]
 print(f"Highest Score: {highest_score}")
 print(f"Lowest Score: {lowest_score}")
 
-# Calculate the class average score, excluding the error from an empty list
+#calculate the class average score, excluding the error from an empty list
 def average_class_score(students_list, scores):
     try:
         return sum(scores)/(len(scores))
@@ -43,7 +43,7 @@ def average_class_score(students_list, scores):
 average_score = average_class_score(students_list, scores) 
 print(f"Average Score: {average_score}") #checking the avg. score
 
-#Checking the case of an empty class
+#checking the case of an empty class
 empty_class = []
 empty_scores = []
 error_average = average_class_score(empty_class, empty_scores)
